@@ -1,11 +1,10 @@
 package org.example;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        List<String> lines = FileReader.readLines("prospects.txt");
+        List<String> lines = CustomFileReader.readLines("prospects.txt");
 
         // Parse the lines into Prospect objects
         List<Prospect> prospects = LineParser.parseLines(lines);

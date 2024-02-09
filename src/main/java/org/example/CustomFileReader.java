@@ -3,14 +3,14 @@ package org.example;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-public class FileReader {
+public class CustomFileReader {
     // Private constructor to prevent instantiation
-    private FileReader(String filename) {
+    CustomFileReader(File filename) {
         throw new AssertionError(); // Throw an error if someone tries to instantiate this class
     }
     public static List<String> readLines(String filename) throws IOException {
         List<String> lines = new ArrayList<>();
-        try (BufferedReader inputFile = new BufferedReader(new java.io.FileReader(filename))) {
+        try (BufferedReader inputFile = new BufferedReader(new FileReader(filename))) {
             // Skip the first line (header)
             inputFile.readLine();
 
