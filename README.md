@@ -5,7 +5,7 @@ This Java application take in a textfile and calculates the monthly payments for
 ## Installation
 
 1. Ensure you have Java Development Kit (JDK) version 8 or higher installed on your system.
-2. Clone the repository from GitHub: https://github.com/
+2. Clone the repository from GitHub: [https://github.com/](https://github.com/Hippsvipps/Mortage-Plan/)
 
 ## Running the Application
 1. Open your project in IntelliJ IDEA.
