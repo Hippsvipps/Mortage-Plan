@@ -21,19 +21,19 @@ Click on the arrow icon to run the main method.
 ## Example Usage
 
 Suppose you have a file named `prospects.txt` with the following content:
-John Doe,2000,5.0,3
-Jane Smith,3000,6.0,5
+Rikard Johansson,1000,5.0,2
+Hanna Hansson,2000,8.67,2
 
 Running the application with this input file will generate the following output:
-Customer: John Doe
-Wants to borrow: 2000.0 €
-For a period of: 3 years
-and pays each month : 250.00 €
+Customer: Rikard Johansson
+Wants to borrow: 1000.0 €
+For a period of: 2 years
+and pays each month : 43,87 €
 
-Customer: Jane Smith
-Wants to borrow: 3000.0 €
-For a period of: 5 years
-and pays each month : 300.00 €
+Customer: Hanna Hansson
+Wants to borrow: 2000.0 €
+For a period of: 4 years
+and pays each month : 46,97 €
 
 ## Troubleshooting
 - If you encounter any issues running the application, ensure that you have provided the correct input file path and that the file is properly formatted.
